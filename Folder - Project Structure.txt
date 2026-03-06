@@ -1,0 +1,14 @@
+fabric-whatsapp-bot/
+├─ .env                    # Secrets: API keys, tokens
+├─ package.json            # Node.js project file
+├─ server.js               # Main Express server
+├─ whatsappWebhook.js      # WhatsApp message handling
+├─ openaiClient.js         # OpenAI API client
+├─ shopifyClient.js        # Shopify API client
+├─ prompts/
+│   └─ aiPrompt.txt        # System prompt for AI
+├─ utils/
+│   ├─ formatMessage.js    # Message formatting
+│   ├─ orderFlow.js        # Draft order creation logic
+│   └─ followUp.js         # Abandoned checkout follow-up
+└─ README.md
